@@ -12,6 +12,12 @@ apollo create module <module-name> # creates the module
 apollo create plugin <plugin-name> # creates the plugin
 ```
 
+## Getting started
+
+1. Put it into a directory you won't touch
+2. `cd apollo-basic-cli`
+3. `npm install -g .`
+
 ## Limitations
 
 This CLI tool simply copies over file templates and then inserts them
