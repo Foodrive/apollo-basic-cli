@@ -1,0 +1,19 @@
+# Node build artifacts
+node_modules
+npm-debug.log
+.husky
+
+# Local development
+*.env
+.env
+*.dev
+.DS_Store
+dist
+build
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+#IDE files
+.idea

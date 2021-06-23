@@ -1,0 +1,8 @@
+type MyType {
+  id: ID!
+  name: String!
+}
+
+type Query {
+  myType: MyType!
+}

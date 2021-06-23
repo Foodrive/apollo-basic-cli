@@ -1,0 +1,44 @@
+// Modify the plugins here
+// for more information please go to
+// https://www.apollographql.com/docs/apollo-server/integrations/plugins/#server-lifecycle-events
+
+const <%TEMPLATE%>Plugin = {
+// Request lifecycle methods
+//  requestDidStart() {
+//    return {
+//      didResolveSource() {
+//        return (err) => {};
+//      }
+//      parsingDidStart() {
+//        return (err) => {};
+//      }
+//      validationDidStart() {
+//        return (err) => {};
+//      }
+//      executionDidStart() {
+//        return (err) => {};
+//      }
+//      didResolveOperation() {
+//        return (err) => {};
+//      }
+//      responseForOperation() {
+//        return (err) => {};
+//      }
+//      didEncounterErrors() {
+//        return (err) => {};
+//      }
+//      willSendResponse() {
+//        return (err) => {};
+//      }
+//    }
+//  }
+
+// Server lifecycle events
+//  serverWillStart() {
+//    return {
+//      serverWillStop() {}
+//    }
+//  }
+}
+
+export default <%TEMPLATE%>Plugin;
